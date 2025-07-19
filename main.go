@@ -1,10 +1,13 @@
 package main
 
 import (
-	//"fmt"
+	"fmt"
+
 	"github.com/dixonAnatoAscencio/gozerotomastery/variables"
 )
 
 func main() {
-	variables.MuestroEnteros()
+	//variables.MuestroEnteros()
+	//variables.RestoVariables()
+	fmt.Println(variables.ConviertoaTexto(2000))
 }
